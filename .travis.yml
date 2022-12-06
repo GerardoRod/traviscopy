@@ -5,4 +5,4 @@ go:
 
 script:
   - go test -v ./...
-  - go build github.com/GerardoRod/traviscopy/tree/main/cmd/hello-world
+  # - go build github.com/GerardoRod/traviscopy/tree/main/cmd/hello-world
