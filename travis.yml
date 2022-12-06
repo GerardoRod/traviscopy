@@ -1,9 +1,9 @@
 language: go
 
 go:
-  go test -v ./..
+  go test -v1.14.x
   go build https://github.com/GerardoRod/traviscopy/blob/main/hello-world
-  - 1.14.x
+  
   # go build github.com/GerardoRod/ci-travis/cmd/hello-world 
 
 script:
