@@ -5,5 +5,5 @@ go:
   - 1.14.x
 
 script:
-  - go test -v ./…
+  - go test -v ./...
   - go build https://github.com/GerardoRod/traviscopy/blob/main/hello-world
