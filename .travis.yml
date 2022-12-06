@@ -1,9 +1,8 @@
 language: go
 
 go:
-  go test -v ./..
+  go test -v1.14.1
   go build https://github.com/GerardoRod/traviscopy/blob/main/hello-world
-  - 1.14.x
 
 script:
   - script(s) for integrating the code
