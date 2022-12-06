@@ -18,7 +18,7 @@ func TestSubs(t *testing.T) {
 
 func TestSquare(t *testing.T) {
 	total = Square(5)
-    if total = 20 {
+    if total = 25 {
        t.Errorf("Square was incorrect, got: %d, want: %d.", total, 25)
     }
 }
