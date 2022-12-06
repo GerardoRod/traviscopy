@@ -1,8 +1,11 @@
 language: go
 
-go:
-  go test -v1.14.1
-  go build https://github.com/GerardoRod/traviscopy/blob/main/hello-world
 
+go:
+  go test -v ./…
+  go build https://github.com/GerardoRod/traviscopy/blob/main/hello-world
+  - version 1.14.x
+  GIMME_GO_VERSION=stable gimme -r
+  1.14.1
 script:
   - script(s) for integrating the code
